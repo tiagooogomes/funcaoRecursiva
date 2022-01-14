@@ -1,4 +1,4 @@
-const matriz = ["Tiago", "Santos", "Jesus"];
+const matriz = ["Tiago", "Santos", "de", "Jesus"];
 
 function mostrarDadosMatriz(param) {
 

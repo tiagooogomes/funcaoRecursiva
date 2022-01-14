@@ -1,5 +1,5 @@
-function calcularFatorial(valor) {
-    const valorDeNovo = valor
+function calcularFatorial(valor, valorDeNovo) {
+    
     if(valor <= 1 || valorDeNovo <= 1 || typeof valor === "string" || typeof valorDeNovo === "string" || Number.isInteger(valor) === false || Number.isInteger(valorDeNovo) === false) {
 
         console.log(valor)
@@ -7,7 +7,7 @@ function calcularFatorial(valor) {
     } else {
         valorDeNovo = valorDeNovo - 1;
         valor = valor * valorDeNovo; 
-        return calcularFatorial(valor);
+        return calcularFatorial(valor, valorDeNovo);
     }
 }
 
